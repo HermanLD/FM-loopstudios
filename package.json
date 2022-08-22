@@ -1,0 +1,19 @@
+{
+  "name": "loopstudio-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./css/output.css"
+  },
+  "keywords": [],
+  "author": "Herman Dardon",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "daisyui": "^2.24.0"
+  }
+}
